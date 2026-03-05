@@ -2,5 +2,5 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://katalizator-off.vercel.app/sitemap.xml
-Host: https://katalizator-off.vercel.app/
+Sitemap: pokerok1.vercel.app/sitemap.xml
+Host: pokerok1.vercel.app
