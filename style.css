@@ -778,7 +778,7 @@ footer {
 
 /* Стили для внутренних страниц */
 .page-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/6.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/5.jpg') center/cover no-repeat;
     padding: 120px 0 60px;
     text-align: center;
     min-height: 40vh;
@@ -1819,7 +1819,7 @@ section {
 /* СТРАНИЦЫ КОНТЕНТА */
 .page-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-                url('images/5.jpg') center/cover no-repeat;
+                url('images/6.jpg') center/cover no-repeat;
     min-height: 40vh;
     display: flex;
     align-items: center;
