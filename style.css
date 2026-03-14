@@ -2192,3 +2192,27 @@ section {
         grid-template-columns: 1fr;
     }
 }
+/* Коррекция галереи внутри контента */
+.content-gallery {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-gallery .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* колонки не выходят за пределы */
+    gap: 15px;
+}
+
+/* Для мобильных оставляем адаптивность */
+@media (max-width: 768px) {
+    .content-gallery .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .content-gallery .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
