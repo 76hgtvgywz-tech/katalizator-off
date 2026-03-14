@@ -1819,7 +1819,7 @@ section {
 /* СТРАНИЦЫ КОНТЕНТА */
 .page-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-                url('images/6.jpg') center/cover no-repeat;
+                url('images/5.jpg') center/cover no-repeat;
     min-height: 40vh;
     display: flex;
     align-items: center;
